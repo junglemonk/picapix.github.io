@@ -1,0 +1,795 @@
+/* line 41, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/grid */
+body {
+  width: 100%;
+  *zoom: 1; }
+  /* line 27, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/grid */
+  body:before, body:after {
+    content: "";
+    display: table; }
+  /* line 31, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/grid */
+  body:after {
+    clear: both; }
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+html {
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 18, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 44, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 56, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+audio, canvas, progress, video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 66, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 77, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+[hidden], template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 88, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 97, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 108, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 117, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+b, strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 125, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 134, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 143, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 152, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 161, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 168, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+sup {
+  top: -0.5em; }
+
+/* line 172, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 183, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 191, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 202, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 210, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 220, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 231, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 255, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 265, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+button, select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 292, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 302, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 321, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 346, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 356, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 370, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 378, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 389, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 398, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 407, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 418, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 424, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/normalize */
+td, th {
+  padding: 0; }
+
+/* line 4, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*UNIVERSAL*/
+/* line 11, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+body {
+  font-family: "Press Start 2P";
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* line 16, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+a {
+  text-decoration: none;
+  text-transform: uppercase; }
+
+/* line 21, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+b {
+  color: #229cd4; }
+
+/* line 25, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+/*UNIVERSAL*/
+/* line 31, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.wrap {
+  margin: auto;
+  min-width: 960px;
+  width: 100%; }
+
+/* line 37, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.header {
+  height: 84px; }
+
+/* line 41, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.logo {
+  background: url(images/LOGO.png);
+  display: inline-block;
+  width: 195px;
+  height: 54px;
+  margin: 11px 0 0 24px;
+  float: left; }
+
+/* line 51, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.menu {
+  text-align: center;
+  padding-top: 36px; }
+
+/* line 56, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.menu_item {
+  margin-right: 15px;
+  color: #332f2f;
+  font-size: 12px; }
+
+/* line 62, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.basket {
+  height: 84px;
+  float: right;
+  display: inline-block;
+  background: #e4e3e3; }
+
+/* line 70, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.basket_sum {
+  margin-right: 11px;
+  color: #332f2f;
+  text-align: right;
+  font-size: 9px;
+  padding: 21px 12px 25px 18px; }
+  /* line 77, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .basket_sum span {
+    color: #999999; }
+  /* line 80, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .basket_sum b {
+    font-size: 14px; }
+  /* line 83, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .basket_sum pre {
+    font-family: "Press Start 2P";
+    margin: 0 0 10px 0; }
+
+/***ROW***/
+/* line 91, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row {
+  background: url(images/Ellipse-3-copy.png) no-repeat center center;
+  display: inline-block;
+  height: 440px;
+  width: 100%;
+  background-size: cover;
+  position: relative; }
+  /* line 99, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .row a {
+    color: #ffffff;
+    font-size: 14px; }
+
+/* line 107, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_stud_butt {
+  background-color: #ff4911;
+  height: 31px;
+  border: 0px;
+  position: absolute;
+  left: 315px;
+  box-shadow: 0 2px #b9360d;
+  padding: 9px 10px 9px 10px; }
+
+/* line 117, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_stud_make {
+  width: 213px;
+  height: 48px;
+  background: url(images/MergedLayers.png);
+  float: right;
+  position: absolute;
+  left: 500px;
+  top: 60px; }
+
+/* line 128, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_stud {
+  width: 960px;
+  height: 91px;
+  position: relative;
+  margin: 0 auto; }
+
+/* line 136, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_botton {
+  width: 960px;
+  height: 140px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 170px; }
+
+/* line 144, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_botton_make {
+  width: 185px;
+  height: 138px;
+  background: url(images/advtime.png);
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  left: 295px; }
+
+/* line 154, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_botton_txt {
+  width: 195px;
+  height: 110px;
+  background: url(images/MergedLayersBottom.png) no-repeat;
+  display: inline-block;
+  position: absolute;
+  left: 70px; }
+
+/* line 164, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_button_left {
+  height: 31px;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  background-color: #ff4911;
+  border: 0px;
+  box-shadow: 0 2px #b9360d;
+  padding: 9px 10px 9px 10px; }
+
+/***ROW_TWO***/
+/* line 178, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_two {
+  background: url(images/backgrounds.png) center center;
+  width: 100%;
+  height: 457px;
+  margin-top: -100px;
+  display: inline-block; }
+
+/* line 187, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_two_top {
+  width: 284px;
+  height: 40px;
+  background: url(images/MergedLayers3.png);
+  margin: 140px auto; }
+
+/* line 195, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_two_3steps {
+  width: 960px;
+  position: relative;
+  margin: -100px auto; }
+  /* line 200, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .row_two_3steps span {
+    font-size: 11px; }
+
+/* line 205, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_two__one {
+  width: 230px;
+  /*min-width*/
+  height: 150px;
+  background: url(images/step1.png) no-repeat;
+  position: absolute;
+  padding-top: 126px; }
+
+/* line 216, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_two__two {
+  width: 180px;
+  height: 150px;
+  background: url(images/step2.png) no-repeat;
+  position: absolute;
+  left: 356px;
+  padding-top: 126px; }
+
+/* line 226, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_two__three {
+  width: 230px;
+  /*min-width*/
+  height: 150px;
+  background: url(images/step3.png) no-repeat;
+  position: absolute;
+  left: 731px;
+  padding-top: 126px; }
+
+/***ROW_THREE***/
+/* line 236, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_three {
+  background: url(images/backgroundsrow3.png);
+  display: inline-block;
+  height: 153px;
+  width: 100%;
+  margin-top: -4px; }
+
+/* line 245, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_three_counter {
+  margin: auto;
+  margin-top: 45px;
+  width: 960px;
+  height: 67px;
+  position: relative; }
+
+/* line 253, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_three__content {
+  width: 572px;
+  height: inherit;
+  position: absolute;
+  background: url(images/counter.png) no-repeat;
+  margin-left: 160px;
+  padding: 20px 0 0 260px; }
+  /* line 260, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .row_three__content span {
+    color: #ffffff;
+    font-size: 14px; }
+
+/***ROW_FOUR***/
+/* line 267, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_four {
+  width: 100%;
+  height: 900px;
+  background: #ffffff;
+  margin-top: -4px;
+  display: inline-block;
+  position: relative; }
+  /* line 275, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .row_four p {
+    margin: 0;
+    font: 400 16.59px/24.124px; }
+
+/* line 281, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row__pic1 {
+  height: 383px;
+  background: url(images/gallaryLacoste.png) no-repeat;
+  padding: 330px 0 20px 0;
+  font-size: 16.59px; }
+
+/* line 291, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row__column {
+  display: inline;
+  float: left;
+  width: 317px;
+  margin: 0 0px; }
+
+/* line 295, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_four_gallary {
+  width: 951px;
+  height: 745px;
+  margin: 40px auto; }
+
+/* line 303, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row__pic2 {
+  background: url(images/gallaryInveder.png) no-repeat;
+  height: 383px;
+  padding: 330px 0 20px 0; }
+
+/* line 309, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row__pic3 {
+  background: url(images/gallaryLiza.png) no-repeat;
+  height: 383px;
+  padding: 330px 0 20px 0; }
+
+/* line 315, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row__pic4 {
+  background: url(images/gallaryMonroe.png) no-repeat;
+  height: 360px; }
+
+/* line 320, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row__pic5 {
+  background: url(images/gallaryGranate.png) no-repeat;
+  height: 360px; }
+
+/* line 325, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row__pic6 {
+  background: url(images/gallaryPhone.png) no-repeat;
+  height: 360px; }
+
+/* line 330, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_four__button {
+  width: 220px;
+  height: 31px;
+  background-color: #ff4911;
+  box-shadow: 0 2px #b9360d;
+  border: 0;
+  position: absolute;
+  left: 370px; }
+  /* line 338, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .row_four__button a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px/31px; }
+
+/* line 347, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_four_center_button {
+  width: 960px;
+  height: 33px;
+  position: relative;
+  margin: auto; }
+
+/* line 354, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.row_five {
+  width: 100%;
+  height: 510px;
+  background: url(images/row5background.png) no-repeat center center;
+  background-size: cover; }
+
+/***FOOTER***/
+/* line 362, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer {
+  min-width: 960px;
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+  position: relative;
+  display: inline-block;
+  font-size: 10px; }
+
+/* line 373, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer_txt {
+  height: 11px;
+  float: left;
+  margin: 35px 0 0 15px;
+  display: inline-block; }
+
+/* line 381, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer_social {
+  width: 95px;
+  height: 33px;
+  margin: 25px 0 0 90px;
+  float: left;
+  display: inline-block; }
+
+/* line 394, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer__fb {
+  float: left;
+  margin-right: 1px;
+  height: 33px; }
+  /* line 399, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .footer__fb a {
+    width: 31px;
+    height: 33px;
+    background: url(images/fb.png) no-repeat;
+    display: inline-block; }
+
+/* line 407, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer__tw {
+  margin-right: 1px;
+  float: left;
+  height: 33px; }
+  /* line 411, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .footer__tw a {
+    width: 31px;
+    height: 33px;
+    background: url(images/twi.png) no-repeat;
+    display: inline-block; }
+
+/* line 419, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer__pi {
+  height: 33px; }
+  /* line 421, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .footer__pi a {
+    width: 31px;
+    height: 33px;
+    background: url(images/ps.png) no-repeat;
+    display: inline-block; }
+
+/* line 429, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer_logo {
+  width: 90px;
+  height: 25px;
+  top: 25px;
+  left: 49%;
+  position: absolute;
+  background: url(images/LOGO-footer.png); }
+
+/* line 441, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer_contacts_ul li {
+  display: inline-block;
+  text-align: right;
+  color: #333030;
+  padding-right: 15px; }
+  /* line 447, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+  .footer_contacts_ul li span {
+    color: #ff4911; }
+
+/* line 453, C:/Program Files (x86)/Brackets/samples/sivac/pic-a-pix.github.io/main.scss */
+.footer_contacts {
+  margin-top: 25px;
+  height: 27px;
+  float: right;
+  display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */
